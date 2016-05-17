@@ -2,13 +2,14 @@
 
 Draw on terminal using Unicode block elements
 Created to learn python :muscle:
+
 ![Demo](images/demo.gif "Demo")
 
 # How to run
 
 You only need the grid.py file.
 
-`python
+```python
 import ...
 # Create an instance
 grid = Grid()
@@ -16,19 +17,22 @@ grid = Grid()
 grid.set(4, 2)
 # Display
 print grid
-`
+```
 
 To run the demo (this project):
-`
+
+```
 python csblocks.py
-`
+```
+
 Or with [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/):
-`
+
+```
 . bin/activate
 python csblocks.py 
 
 # turn off
 deactivate
-`
+```
 
 For details, see the __src/services/visualizer.py__ file.
