@@ -8,7 +8,7 @@ Created as an exercise to learn __Python__ :muscle:
 
 # How to run
 
-You only need the csblocks.py file.
+You only need the __csblocks.py__ file.
 
 ```python
 from csblocks import Grid
@@ -20,20 +20,20 @@ grid.set(4, 2)
 print grid
 ```
 
-To run the demo (this project):
+To run the example:
 
 ```
-python example/main.py
+python example.py
 ```
 
 Or with [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/):
 
 ```
 . bin/activate
-python example/main.py
+python example.py
 
 # turn off
 deactivate
 ```
 
-For details, see the __src/services/visualizer.py__ file.
+For details, see the __example.py__ file.
