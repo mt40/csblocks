@@ -1,4 +1,4 @@
-# CSBLOCKS
+# CSBLOCKS (Console Blocks)
 
 Draw on terminal using Unicode block elements
 
