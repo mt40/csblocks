@@ -1,4 +1,4 @@
-# CSBLOCKS
+# CSBLOCKS (Console Blocks)
 
 Draw on terminal using Unicode block elements
 Created to learn python :muscle:
