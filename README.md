@@ -1,16 +1,17 @@
 # CSBLOCKS
 
 Draw on terminal using Unicode block elements
-Created to learn python :muscle:
+
+Created as an exercise to learn __Python__ :muscle:
 
 ![Demo](images/demo.gif "Demo")
 
 # How to run
 
-You only need the grid.py file.
+You only need the csblocks.py file.
 
 ```python
-import ...
+from csblocks import Grid
 # Create an instance
 grid = Grid()
 # Draw a block at (4, 2) (row 4, column 2)
@@ -22,14 +23,14 @@ print grid
 To run the demo (this project):
 
 ```
-python csblocks.py
+python example/main.py
 ```
 
 Or with [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/):
 
 ```
 . bin/activate
-python csblocks.py 
+python example/main.py
 
 # turn off
 deactivate
